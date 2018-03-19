@@ -24,6 +24,16 @@ tar -xzvf xxx.tar.gz -C specific_location
 
 
 
+**Compress** specific folder into a file
+
+```shell
+tar -czvf <give a name>.tar.gz source_folder1 source_folder2 ...
+```
+
+
+
+
+
 Further used sample will be added when I use them next time.
 
 

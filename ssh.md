@@ -49,3 +49,7 @@ ssh -vvv -i <where is your private key> username@host
 
 
 
+can refer to this [link](https://askubuntu.com/questions/311558/ssh-permission-denied-publickey).
+
+
+

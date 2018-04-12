@@ -23,7 +23,7 @@ edit the "config" file under the .ssh
 Input something like this 
 
 ```shell
-HOST Ointeract
+HOST 18.221.143.156
 HostName 18.221.143.156
   User ointeract
   IdentityFile ~/.ssh/id_rsa_ointeract/id_rsa_ointeract  

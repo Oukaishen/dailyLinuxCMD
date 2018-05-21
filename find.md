@@ -41,6 +41,20 @@ find . -type d -nanme abc
 
 
 
+#### find followed by exec
+
+`-exec` can add the command that you want to apply on the result by find.
+
+The following code use `ls` command for those ".suffix" files.  
+
+```shell
+find . -name "*.suffix" -exec ls {} \;
+```
+
+`{} \;` is nothing special, `{}` represents the result from `find`, `\;` sents this to find command. 
+
+
+
 Here is just very simple notes. For more advanced usage, please refer to the references link.
 
 #### References

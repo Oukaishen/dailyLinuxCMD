@@ -12,6 +12,10 @@ cd to where you want to put this key, there will be one public key and one priva
 ssh-keygen -t rsa -C "your email"
 ```
 
+<br>
+
+The "t" specify the type of the key. "C" is the comment. The parameter detail can be found [here](man.linuxde.net/ssh-keygen).
+
 
 
 **Configure ssh to use the key**

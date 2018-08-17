@@ -22,6 +22,22 @@ grep -A 3 "some content" filename
 
 <br>
 
+Sometimes using grep will encounter this kind of problem
+
+> Binary file (standard input) matches
+
+This parameter will help you `-a`
+
+> Process a binary file as if it were text; this is equivalent to the ‘--binary-files=text’ option.
+
+```shell
+grep -a "pattern" filename
+```
+
+
+
+
+
 ## Regular expression example, [problem](https://leetcode.com/problems/valid-phone-numbers/description/).
 
 ```shell
